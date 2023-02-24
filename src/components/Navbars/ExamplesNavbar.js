@@ -155,7 +155,7 @@ function ExamplesNavbar() {
                 )}
                 
               </UncontrolledDropdown>
-              <UncontrolledDropdown >
+              <UncontrolledDropdown nav>
                 <DropdownToggle
                   aria-haspopup={true}
                   caret
