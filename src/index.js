@@ -19,7 +19,7 @@ import Kenya from "Tours/Kenya";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <HashRouter basename={process.env.PUBLIC_URL || ''}>
+  <BrowserRouter>
     <Switch>
       <Switch>
         <Route path="/index" render={(props) => <Home {...props} />} />
@@ -73,5 +73,5 @@ root.render(
         <Redirect from="/" to="/index" />
       </Switch>
     </Switch>
-  </HashRouter>
+  </BrowserRouter>
 );
