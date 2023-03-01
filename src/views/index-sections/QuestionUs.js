@@ -20,7 +20,7 @@ export default function QuestionUs() {
         [name]: value,
         });
         var regEx = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if( event.target.value.length > 0 && regEx.test(event.target.value) === false){
+        if( event.target.value.length > 0 && regEx.test(event.target.value) === false && name === "email"){
             console.log("Invalid input")
             setIsValid(false)
         }
