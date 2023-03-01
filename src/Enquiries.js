@@ -284,9 +284,6 @@ function Enquiries() {
                             <p style={{color:'white', fontWeight:'bold'}}>Submit</p>
                         )}
                     </Button>
-                    <Button onClick={()=>trialSubmit()}>
-                        Submit
-                    </Button>
                 </div>
                 </Card>
             </div>
